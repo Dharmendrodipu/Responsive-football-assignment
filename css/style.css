@@ -122,7 +122,7 @@ h1{
 }
 .footer-area{
     margin-top: 158px;
-    
+    margin-bottom: 65px;
 }
 .footer-banner{
     text-align: center;
@@ -133,7 +133,6 @@ h1{
 }
 .contacts-logo{
     text-align: center;
-    weight: 32px;
     height: 32px;
     margin-top: 20px;
     
@@ -149,3 +148,19 @@ h1{
     font-size: 18px;
     margin-left: 15px;
 }
+/* Responsive area */
+
+@media only screen and (max-width: 480px){
+    .banner{
+        width: 100%;
+        
+        
+    }
+    .half-width img{
+        margin: 0px;
+        width: 200px;
+    }
+    
+}
+    
+
