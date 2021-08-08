@@ -4,6 +4,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+
+/* Header section */
+
 .banner{
     background-color: #2D25A0;
     width: 100%;
@@ -19,6 +22,11 @@ h1{
 .half-width{
     width: 50%;
     margin-left: 10%;
+    
+}
+.half-width.header-text{
+    margin-left: 16%;
+    margin-top: 7%;
 }
 .half-width h1{
     line-height: .5;
@@ -34,18 +42,22 @@ h1{
     text-decoration: none;
     background-color: #E02C6D;
     padding: 10px 30px;
-    
     color: white;
     font-weight: 700;
-    position: relative; top: 0%;
+       
 }
-.header-text{
-    margin-left: 16%;
-    margin-top: 7%;
+.link-button:hover{
+    transform: scale(1.5);
+    background-color: rgb(36, 168, 140);
+    font-size: 150%;
+        
 }
-.total-players{
-    
+.link-button:hover{
+    transition: font-size 2s ease-in-out;
 }
+
+/* Body section */
+
 .all-players{
     
     display: grid;
@@ -63,7 +75,7 @@ h1{
 }
 .players{
     
-    background-color: orange;
+    background-color: white;
     margin-top: 25px;
     width: 330px;
     height: 474px;
@@ -73,4 +85,67 @@ h1{
 }
 .players p{
     text-align: justify;
+    font-weight: 400;
+}
+
+/* Highlights section */
+.section{
+    display: flex;
+    margin-top: 158px;
+    padding-left: 15%;
+    margin-right: 9%;
+}
+.highlights img{
+    width: 567px;
+    height: 427px;
+}
+.highlights h1{
+    line-height: .5;
+    font-size: 69px;
+}
+.highlights p{
+    text-align: justify;
+    margin-right: 353px;
+    font-weight: 400;
+    line-height: 2;
+}
+.highlights a{
+    margin-top: 25px;
+    line-height: 4;
+}
+
+
+/* Footer section */
+.footer{
+    position: relative;
+    margin-bottom: 63px;
+}
+.footer-area{
+    margin-top: 158px;
+    
+}
+.footer-banner{
+    text-align: center;
+}
+.footer-banner img{
+    width: 483px;
+    height: 110px;
+}
+.contacts-logo{
+    text-align: center;
+    weight: 32px;
+    height: 32px;
+    margin-top: 20px;
+    
+}
+.contacts-logo img{
+    width: 32px;
+    height: 32px;
+    padding-left: 14px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 28px;
+    font-size: 18px;
+    margin-left: 15px;
 }
